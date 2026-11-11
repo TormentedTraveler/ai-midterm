@@ -1,0 +1,56 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ---------- Virtual environments (yours is named "tensor"; add others as needed) ----------
+tensor/
+num/
+train/
+env-tflite/
+venv/
+.venv/
+env/
+
+# ---------- Datasets: large and licensed, never commit ----------
+data/
+dataset/
+chbmit/
+*.edf
+*.edf.seizures
+*.zip
+
+# ---------- Generated files (re-created by the scripts) ----------
+ae_export.npz
+scaler.npz
+features_*.csv
+*.pt
+*.pth
+
+# Keep small, report-relevant outputs: results_*.csv, report_figures/, *.tflite, model_data.h
+# (to ignore them as well, uncomment the next lines)
+# results_*.csv
+# report_figures/
+# *.tflite
+# model_data.h
+
+# ---------- ESP-IDF / firmware ----------
+firmware/**/build/
+firmware/**/managed_components/
+firmware/**/sdkconfig
+firmware/**/sdkconfig.old
+firmware/**/dependencies.lock
+.espressif/
+
+# ---------- Editors and OS ----------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- Secrets (Wokwi license, tokens) ----------
+.env
+*.key

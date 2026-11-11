@@ -1,0 +1,13 @@
+file,model,n_baseline,auc
+chb01_03.edf,IsolationForest,89,0.4370786516853932
+chb01_03.edf,Autoencoder,89,0.6550561797752809
+chb01_04.edf,IsolationForest,38,0.6657894736842106
+chb01_04.edf,Autoencoder,38,0.7526315789473684
+chb01_15.edf,IsolationForest,47,0.8063829787234043
+chb01_15.edf,Autoencoder,47,0.26382978723404255
+chb01_16.edf,IsolationForest,23,0.4391304347826087
+chb01_16.edf,Autoencoder,23,0.16956521739130437
+chb01_18.edf,IsolationForest,47,0.2638297872340426
+chb01_18.edf,Autoencoder,47,0.23191489361702128
+chb01_26.edf,IsolationForest,52,0.41538461538461535
+chb01_26.edf,Autoencoder,52,0.3153846153846154

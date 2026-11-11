@@ -1,0 +1,4 @@
+acc,ble_alerts,eda,mcu_active,mcu_deep_sleep,mcu_light_sleep,ppg,scenario,total_mw
+0.066,0.0012,0.495,0.0902,,2.6382,1.98,"A: light sleep, sensors always on",5.2706
+0.066,0.0012,0.495,0.7502,0.0328,,1.98,B: deep sleep + sensor FIFOs,3.3252
+0.066,0.0012,0.495,0.7502,0.0328,,0.198,C: B with PPG on 10 % of the time,1.5432
