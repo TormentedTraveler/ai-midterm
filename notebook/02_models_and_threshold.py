@@ -8,7 +8,7 @@ import torch.nn as nn
 from sklearn.ensemble import IsolationForest
 from sklearn.preprocessing import StandardScaler
 
-CSV = "features_chb01.csv"
+CSV = "features_chb.csv"
 FEATS = ["line_length", "variance", "rms", "hjorth_mobility", "hjorth_complexity",
          "rel_delta", "rel_theta", "rel_alpha", "rel_beta", "rel_gamma",
          "theta_beta_ratio"]
