@@ -6,8 +6,6 @@ Part 1: per-feature within-file AUC on the raw features. AUC < 0.5 means the
         feature FALLS before seizures (an anomaly detector that only flags
         "unusual high" values will miss that).
 Part 2: Isolation Forest / autoencoder on baseline-relative + trend features.
-
-Run next to the other scripts:  python 05_relative_features.py
 """
 import importlib
 

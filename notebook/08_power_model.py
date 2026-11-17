@@ -1,14 +1,3 @@
-"""
-Duty-cycle power model for the wearable node.
-THIS IS A MODELED ESTIMATE, NOT A MEASUREMENT.
-
-Every number in ASSUMED below is a placeholder from memory. Before you put results
-in the report, replace each one with a value from the datasheet of the part you
-name (ESP32 / ESP32-WROOM datasheet, your accelerometer, EDA front end and PPG
-sensor), and replace t_feat / t_inf with cycle counts measured in the emulator.
-
-Run:  python 08_power_model.py
-"""
 import csv
 
 VDD = 3.3            # V

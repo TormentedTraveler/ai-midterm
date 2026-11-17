@@ -1,10 +1,8 @@
 """
-Two checks after 03_diagnostics.py:
+Two checks after diagnostics:
   A) within-file AUC: preictal vs the SAME file's earlier windows (removes the
      cross-file / state confound that can inflate the pooled AUC)
-  B) static percentile threshold (calibrated on training scores) vs the dynamic one
-
-Run next to the other scripts:  python 04_static_vs_dynamic.py
+  B) static percentile threshold (calibrated on training scores) vs the dynamic ones
 """
 import importlib
 

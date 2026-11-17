@@ -1,10 +1,6 @@
 """
-Phase 5b (run in env-tflite, the TensorFlow environment):
 Rebuild the PyTorch autoencoder in Keras, convert to float32 and int8 TFLite,
 and report model size, quantization error and the accuracy drop.
-
-    pip install tensorflow numpy scipy scikit-learn
-    python 07_tflite_quantize.py
 """
 import numpy as np
 import tensorflow as tf

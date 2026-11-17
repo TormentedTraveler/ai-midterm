@@ -2,9 +2,6 @@
 Fixes the FAR denominator and adds a threshold-free check of whether the features
 carry any preictal signal.
 
-Put this next to 02_models_and_threshold.py and features_chb01.csv, then:
-    python 03_diagnostics.py
-
 Design: 7 folds. Each fold holds out ONE seizure file plus ~4 seizure-free files.
 Models train on interictal windows from all other files. FAR is therefore measured
 on ~30 h of data instead of ~1 h.

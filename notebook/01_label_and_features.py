@@ -1,12 +1,5 @@
 """
-Phase 1-2: CHB-MIT labeling + windowed features (chb01)
-
-Install (in your venv):
-    pip install mne numpy pandas scipy matplotlib
-
-Run (VS Code: run cell by cell, or just `python 01_label_and_features.py`):
-    1. Edit DATA_DIR below to point at your chb01 folder.
-    2. Run it. It writes features_chb01.csv and plots one seizure file.
+Phase 1-2: CHB-MIT labeling + windowed features ()
 """
 import re
 from pathlib import Path
@@ -18,8 +11,8 @@ import matplotlib.pyplot as plt
 from scipy.signal import welch
 
 # ----------------------------- CONFIG ---------------------------------
-DATA_DIR = Path(r"C:/Users/esyas/Work/Personal/ai-final/data/chb01")   # <-- CHANGE THIS
-SUMMARY = DATA_DIR / "chb01-summary.txt"
+DATA_DIR = Path(r"../ai-final/data/chb") 
+SUMMARY = DATA_DIR / "chb-summary.txt"
 OUT_CSV = Path("features_chb01.csv")
 
 WIN_S = 30            # window length (s)

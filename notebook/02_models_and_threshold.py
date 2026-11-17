@@ -1,8 +1,5 @@
 """
 Phase 3-4: anomaly models + dynamic threshold + leave-one-seizure-out evaluation
-
-Install:  pip install scikit-learn torch pandas numpy
-Run:      python 02_models_and_threshold.py     (needs features_chb01.csv from script 01)
 """
 import numpy as np
 import pandas as pd

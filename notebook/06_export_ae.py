@@ -1,9 +1,6 @@
 """
-Phase 5a (run in env-ml, the PyTorch environment):
 Train the final autoencoder on ALL interictal windows with the raw 11 features and
 export everything the TFLite step needs into ae_export.npz.
-
-    python 06_export_ae.py
 """
 import importlib
 
